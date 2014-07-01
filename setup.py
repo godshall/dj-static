@@ -42,9 +42,9 @@ setup(
     long_description=__doc__,
     py_modules=['dj_static'],
     zip_safe=False,
-    install_requires=['static3==0.0.6.1'],
+    install_requires=['static3==0.5.1.1'],
     dependency_links = [
-        'http://github.com/godshall/static3/tarball/master#egg=static3-0.0.6.1',
+        'http://github.com/godshall/static3/tarball/master#egg=static3-0.5.1.1',
     ],
     include_package_data=True,
     platforms='any',
